@@ -1,0 +1,326 @@
+main {
+    margin-top: 100px;
+    margin-left: 2em;
+}
+
+/* nav.top-nav {
+    background-color: pink;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 4px 4px #0003;
+    padding-left: 2em;
+} */
+
+
+h1.aboutTitle {
+    color: lightblue;
+    font-size: 60px;
+    margin-top: 200px;
+    margin-left: 150px;
+
+}
+
+h2.aboutTitle {
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 500px;
+    margin-left: 160px;
+  
+}
+
+.bioPic {
+    height: 500px;
+    margin-left: 700px;
+    margin-bottom: 500px;
+}
+
+nav.top-nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 1000px;
+    margin-top: 20px;
+
+}
+
+nav.top-nav li {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: grey;
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    user-select: none;
+    position: relative;
+    text-align: right;
+}
+
+nav.top-nav li:hover {
+    /* text-decoration: underline; */
+    color: lightblue;
+}
+
+nav.top-nav li:active {
+    color: #fff;
+}
+
+.main {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 230px;
+    margin-right: 300px;
+}
+
+h1.main {
+    margin-top: 200px;
+    font-size: 80px;
+}
+
+h2.main {
+    margin-top: -40px;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-left: 230px;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    /* width: 300px; */
+
+}
+
+.art {
+    height: 750px;
+    width: 950px;
+    margin-left: 230px;
+}
+
+.portfolioTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-left: 130px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: lightblue;
+
+}
+
+.portfolioDescription {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-left: 130px;
+    margin-right: 600px;
+}
+
+.portfolioStats {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-left: 130px;
+    margin-right: 600px;
+}
+
+.mobilePic {
+    height: 400px;
+    width: 350px;
+    margin-top: -300px;
+    margin-left: 850px;
+}
+
+#bodyText {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+ 
+}
+
+.comparison {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-bottom: 50px;
+
+}
+
+.comparison2 {
+
+    height: 550px;
+    color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: -45px;
+    
+
+}
+
+.wireframes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.wireframes_column {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+
+}
+
+.wireframe1 {
+
+    height: 550px;
+    margin-left: 130px;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+.wireframe2 {
+
+    height: 550px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+.wireframe3 {
+
+    height: 550px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+}
+
+.description1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 130px;
+    margin-right: -50px;
+    font-size: 20px;
+    width: 300px;
+}
+
+.description2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 60px;
+    font-size: 20px;
+    width: 300px;
+}
+
+.description3 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 60px;
+    font-size: 20px;
+    width: 300px;
+    margin-right: -50px;
+}
+
+.description4 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 130px;
+    margin-right: -50px;
+    font-size: 20px;
+    width: 400px;
+}
+
+.subtitle {
+    font-family: 'Courier New', Courier, monospace;
+    color: lightblue;
+    margin-left: 130px;
+    /* margin-left: 650px; */
+
+}
+
+.coffeePic {
+    margin-left: 130px;
+    height: 900px;
+    width: 1100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.resume {
+    height: 1800px;
+    margin-left: 15px;
+}
+
+.aboutTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 500px;
+    margin-left: 230px;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    color: lightblue;
+}
+
+.contact_form {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-left: 160px;
+
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+input[type=submit] {
+
+    background-color: lightblue;
+    border-color: lightblue;
+    width: 100px;
+}
+
+input[type=messagebox]  {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.top-nav .pulldown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 4px;
+    top: 28px;
+    left: 5px;
+    width: 170px;
+}
+
+nav.top-nav .pulldown-menu li {
+    color: #333;
+    display: block;
+    padding: 5px;
+    font-weight: 200;
+}
+
+nav.top-nav li:hover .pulldown-menu {
+    display:block;
+
+}
+
+#title {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 700px;
+} */
